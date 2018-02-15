@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="waycup">Way Cup</string>
+    <string name="address">lane Boitsova, St. Petersburg, 190068</string>
+    <string name="website">https://way-cup.ru/</string>
+    <string name="number">+ 7 919 899 82 38</string>
+    <string name="Hi">Hi</string>
+</resources>
