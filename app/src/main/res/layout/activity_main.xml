@@ -57,13 +57,17 @@
             android:text="@string/number"
             android:textColor="@color/textColor"
             android:textColorLink="@color/textColor"
-            android:textSize="@dimen/text_size_20" />
+            android:textSize="@dimen/text_size_20"
+            android:textAppearance="@style/NumberAndWeb"/>
+        <!--android:textAppearance="@style/NumberAndWeb"-->
+        <!--after i add this line (to replays last three lines)
+        color doesn't apply to this TextView, but text size and autoLink apply -->
 
         <TextView
             android:id="@+id/address"
-            android:autoLink="map"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autoLink="map"
             android:gravity="center"
             android:padding="@dimen/padding"
             android:text="@string/address"

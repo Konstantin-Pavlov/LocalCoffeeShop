@@ -6,4 +6,10 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <style name="NumberAndWeb" parent="android:TextAppearance">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorLink">@color/textColor</item>
+        <item name="android:textSize">@dimen/text_size_20</item>
+    </style>
 </resources>
