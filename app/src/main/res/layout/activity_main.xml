@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/background_ImageView"
     android:orientation="vertical"
+    android:screenOrientation="portrait"
     tools:context="com.example.android.localcoffeeshop.MainActivity">
 
     <ImageView
@@ -17,7 +18,6 @@
         android:src="@drawable/way_cup" />
 
     <LinearLayout
-
         android:layout_width="match_parent"
         android:layout_height="@dimen/layout_height"
         android:layout_weight="1"
@@ -26,26 +26,29 @@
 
         <TextView
             android:id="@+id/business_name"
-            android:text="@string/waycup"
-            style="@style/Title" />
+            style="@style/Title"
+            android:text="@string/waycup" />
 
         <TextView
             android:id="@+id/website"
+            style="@style/NumberAndWeb"
             android:autoLink="web"
-            android:text="@string/website"
-            style="@style/NumberAndWeb" />
+            android:text="@string/website" />
 
         <TextView
             android:id="@+id/phone"
+            style="@style/NumberAndWeb"
             android:autoLink="phone"
-            android:text="@string/number"
-            style="@style/NumberAndWeb" />
+            android:text="@string/number" />
 
         <TextView
             android:id="@+id/address"
+            style="@style/Address"
             android:autoLink="map"
-            android:text="@string/address"
-            style="@style/Address" />
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="showMap"
+            android:text="@string/address" />
 
     </LinearLayout>
 </LinearLayout>

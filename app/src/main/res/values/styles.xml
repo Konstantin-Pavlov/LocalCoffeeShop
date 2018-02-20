@@ -7,7 +7,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="NumberAndWeb" parent="android:TextAppearance">
+    <style name="NumberAndWeb">
         <item name="android:textColor">@color/textColor</item>
         <item name="android:textColorLink">@color/textColor</item>
         <item name="android:textSize">@dimen/text_size_20</item>
@@ -17,7 +17,7 @@
         <item name="android:padding">@dimen/padding</item>
     </style>
 
-    <style name="Title" parent="android:TextAppearance">
+    <style name="Title">
         <item name="android:textColor">@color/textColor</item>
         <item name="android:textColorLink">@color/textColor</item>
         <item name="android:textSize">@dimen/text_size_24</item>
@@ -28,7 +28,8 @@
         <item name="android:textAllCaps">true</item>
     </style>
 
-    <style name="Address" parent="android:TextAppearance">
+    <!-- <style name="Address" parent="android:TextAppearance"> -->
+    <style name="Address">
         <item name="android:textColor">@color/textColor</item>
         <item name="android:textColorLink">@color/textColor</item>
         <item name="android:textSize">@dimen/text_size_16</item>
